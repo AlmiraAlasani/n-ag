@@ -3,18 +3,21 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/> -->
  
   <navbar></navbar>
+  <footer></footer>
    
 </template>
 
 <script>
 
 import navbar from './components/navbar.vue'
+import footer from './components/footer.vue'
 
 export default {
   name: 'App',
   components: {
    
-    navbar
+    navbar,
+    footer
   }
 }
 </script>
