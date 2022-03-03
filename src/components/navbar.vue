@@ -13,6 +13,7 @@
               <a class="nav-link" href="#">Contact</a>              
             </div>
           </div>
+          
         </div>
       </nav>
 </template>
@@ -27,6 +28,7 @@ export default {
 <style>
 .navbar-nav{
     margin-left: 60em;
+    
    
 }
 
