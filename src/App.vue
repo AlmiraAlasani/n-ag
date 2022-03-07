@@ -3,7 +3,11 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   
   <navbar></navbar>
-  <foot></foot>
+  <home></home>
+
+
+
+ <!-- <foot></foot>-->
 
    
 </template>
@@ -11,7 +15,9 @@
 <script>
 
 import navbar from './components/navbar.vue'
-import foot from './components/foot.vue'
+//import foot from './components/foot.vue'
+import home from './components/home.vue'
+
 
 
 export default {
@@ -19,7 +25,8 @@ export default {
   components: {
    
     navbar,
-    foot
+    //foot,
+    home
   }
 }
 </script>
